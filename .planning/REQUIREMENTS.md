@@ -90,7 +90,7 @@
 | EXPO-01 | Phase 3 | Pending |
 | EXPO-02 | Phase 2 | Pending |
 | EXPO-03 | Phase 4 | Pending |
-| EXPO-04 | Phase 5 | Pending |
+| EXPO-04 | Phase 4 | Pending |
 | UI-01 | Phase 4 | Pending |
 | UI-02 | Phase 4 | Pending |
 | UI-03 | Phase 5 | Pending |
@@ -104,4 +104,4 @@
 
 ---
 *Requirements defined: 2026-03-31*
-*Last updated: 2026-03-31 after initial definition*
+*Last updated: 2026-03-31 after roadmap creation*
