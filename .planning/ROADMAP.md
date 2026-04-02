@@ -30,7 +30,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `npm test` runs Vitest and all crosshairCodeGen + cfgGenerator unit tests pass (covering at minimum: valid CS2 import code output, no deprecated commands in .cfg output)
   4. The Zustand crosshair store and config store are wired up and readable from browser devtools
   5. The shared UI primitive components (Slider, Select, ColorPicker, CopyButton) render in isolation without errors
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold Vite 8 + React 19 project and configure full toolchain (Tailwind v4, Vitest 4, path aliases)
+- [ ] 01-02-PLAN.md — TypeScript types, Zustand stores with CS2 defaults, deprecated commands constants
+- [ ] 01-03-PLAN.md — Generator functions (crosshairCodeGen, cfgGenerator) and unit tests
+- [ ] 01-04-PLAN.md — Shared UI primitives (Slider, Select, ColorPicker, CopyButton) and barrel export
 
 ### Phase 2: Crosshair Feature
 **Goal**: A user can design their crosshair visually and copy their CS2 import code — the complete crosshair workflow end-to-end
@@ -84,7 +90,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/? | Not started | - |
+| 1. Foundation | 0/4 | Not started | - |
 | 2. Crosshair Feature | 0/? | Not started | - |
 | 3. Config Builder | 0/? | Not started | - |
 | 4. App Shell and Deployment | 0/? | Not started | - |
