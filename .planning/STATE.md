@@ -54,6 +54,9 @@ Recent decisions affecting current work:
 - 01-04: ColorPicker uses native HTML input type=color (hex only, no alpha) — locked CONTEXT.md decision
 - 01-04: No isolation tests for UI primitives — tested implicitly by Phase 2/3 consumer UIs per CONTEXT.md
 - 01-02: DEPRECATED_CS2_COMMANDS excludes -tickrate 128 (launch flag, not cfg command)
+- 01-03: import.meta.env.DEV used instead of process.env.NODE_ENV in cfgGenerator runtime guard (Vite-native API)
+- 01-03: Word-boundary regex used in deprecated command tests to prevent false positives on substrings
+- 01-03: cfgGenerator scope is cfg commands only — launch options (-novid, -tickrate) go in Steam launch options
 
 ### Pending Todos
 
@@ -69,5 +72,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-04-02
-Stopped at: Completed 01-04-PLAN.md — UI primitives done, Phase 1 foundation complete, ready for Phase 2
+Stopped at: Completed 01-03-PLAN.md retroactive commit — generator functions and unit tests fully documented
 Resume file: None
