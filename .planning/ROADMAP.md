@@ -12,7 +12,7 @@ Starting from a blank React project, this roadmap delivers a polished CS2 crossh
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Project scaffold, typed data models, pure generator functions, Zustand stores, and shared UI primitives
+- [x] **Phase 1: Foundation** - Project scaffold, typed data models, pure generator functions, Zustand stores, and shared UI primitives
 - [ ] **Phase 2: Crosshair Feature** - Complete crosshair designer with SVG live preview, all parameter controls, and CS2 import code generation
 - [ ] **Phase 3: Config Builder** - Complete config form with sensitivity, binds, audio, launch options, and autoexec.cfg download
 - [ ] **Phase 4: App Shell and Deployment** - Routing, responsive layout, dark/light mode, shareable URL, cfg path instructions, and live Vercel deploy
@@ -35,8 +35,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — Scaffold Vite 8 + React 19 project and configure full toolchain (Tailwind v4, Vitest 4, path aliases)
 - [x] 01-02-PLAN.md — TypeScript types, Zustand stores with CS2 defaults, deprecated commands constants
-- [ ] 01-03-PLAN.md — Generator functions (crosshairCodeGen, cfgGenerator) and unit tests
-- [ ] 01-04-PLAN.md — Shared UI primitives (Slider, Select, ColorPicker, CopyButton) and barrel export
+- [x] 01-03-PLAN.md — Generator functions (crosshairCodeGen, cfgGenerator) and unit tests
+- [x] 01-04-PLAN.md — Shared UI primitives (Slider, Select, ColorPicker, CopyButton) and barrel export
 
 ### Phase 2: Crosshair Feature
 **Goal**: A user can design their crosshair visually and copy their CS2 import code — the complete crosshair workflow end-to-end
@@ -90,7 +90,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 2/4 | In progress | - |
+| 1. Foundation | 4/4 | Complete | 2026-04-02 |
 | 2. Crosshair Feature | 0/? | Not started | - |
 | 3. Config Builder | 0/? | Not started | - |
 | 4. App Shell and Deployment | 0/? | Not started | - |
