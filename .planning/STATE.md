@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-03-31)
 ## Current Position
 
 Phase: 1 of 5 (Foundation)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-03-31 — Roadmap created, ready to begin Phase 1 planning
+Plan: 1 of 4 in current phase
+Status: In progress
+Last activity: 2026-04-02 — Plan 01-01 complete (scaffold + toolchain)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [█░░░░░░░░░] 5%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: -
-- Total execution time: 0 hours
+- Total plans completed: 1
+- Average duration: 15 min
+- Total execution time: 0.25 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01-foundation | 1 | 15 min | 15 min |
 
 **Recent Trend:**
-- Last 5 plans: -
-- Trend: -
+- Last 5 plans: 01-01 (15 min)
+- Trend: baseline established
 
 *Updated after each plan completion*
 
@@ -46,6 +46,8 @@ Recent decisions affecting current work:
 - Architecture: Feature-based (features/crosshair, features/config), generator functions as pure TS with no React imports
 - Critical: Use akiver/csgo-sharecode v4.0.0 (ESM-only) — do NOT hand-roll the share code encoder
 - Critical: Build CS2 command allowlist before cfgGenerator — never output cl_updaterate, cl_cmdrate, cl_interp, -tickrate 128
+- 01-01: No postcss.config.js or tailwind.config.js (Tailwind v4 uses @import + @tailwindcss/vite plugin exclusively)
+- 01-01: csgo-sharecode ESM-only constraint: tsconfig module stays ESNext/Bundler, never CommonJS
 
 ### Pending Todos
 
@@ -60,6 +62,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-31
-Stopped at: Roadmap created — Phase 1 ready to plan
+Last session: 2026-04-02
+Stopped at: Completed 01-01-PLAN.md — scaffold + toolchain done, ready for 01-02
 Resume file: None
