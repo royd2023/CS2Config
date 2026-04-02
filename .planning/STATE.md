@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-03-31)
 ## Current Position
 
 Phase: 1 of 5 (Foundation)
-Plan: 1 of 4 in current phase
+Plan: 2 of 4 in current phase
 Status: In progress
-Last activity: 2026-04-02 — Plan 01-01 complete (scaffold + toolchain)
+Last activity: 2026-04-02 — Plan 01-02 complete (TypeScript types, constants, Zustand stores)
 
-Progress: [█░░░░░░░░░] 5%
+Progress: [██░░░░░░░░] 10%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 15 min
-- Total execution time: 0.25 hours
+- Total plans completed: 2
+- Average duration: 12 min
+- Total execution time: 0.42 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation | 1 | 15 min | 15 min |
+| 01-foundation | 2 | 25 min | 12 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (15 min)
-- Trend: baseline established
+- Last 5 plans: 01-01 (15 min), 01-02 (10 min)
+- Trend: consistent, under 15 min per plan
 
 *Updated after each plan completion*
 
@@ -48,6 +48,10 @@ Recent decisions affecting current work:
 - Critical: Build CS2 command allowlist before cfgGenerator — never output cl_updaterate, cl_cmdrate, cl_interp, -tickrate 128
 - 01-01: No postcss.config.js or tailwind.config.js (Tailwind v4 uses @import + @tailwindcss/vite plugin exclusively)
 - 01-01: csgo-sharecode ESM-only constraint: tsconfig module stays ESNext/Bundler, never CommonJS
+- 01-02: CrosshairState uses nested type groups (color.r, line.gap) per CONTEXT.md locked decision
+- 01-02: Fine-grained nested setters on both stores required (Zustand only merges top-level)
+- 01-02: No localStorage persistence in stores — deferred to Phase 4
+- 01-02: DEPRECATED_CS2_COMMANDS excludes -tickrate 128 (launch flag, not cfg command)
 
 ### Pending Todos
 
@@ -63,5 +67,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-04-02
-Stopped at: Completed 01-01-PLAN.md — scaffold + toolchain done, ready for 01-02
+Stopped at: Completed 01-02-PLAN.md — types, constants, Zustand stores done, ready for 01-03
 Resume file: None

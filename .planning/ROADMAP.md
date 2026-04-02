@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Scaffold Vite 8 + React 19 project and configure full toolchain (Tailwind v4, Vitest 4, path aliases)
-- [ ] 01-02-PLAN.md — TypeScript types, Zustand stores with CS2 defaults, deprecated commands constants
+- [x] 01-02-PLAN.md — TypeScript types, Zustand stores with CS2 defaults, deprecated commands constants
 - [ ] 01-03-PLAN.md — Generator functions (crosshairCodeGen, cfgGenerator) and unit tests
 - [ ] 01-04-PLAN.md — Shared UI primitives (Slider, Select, ColorPicker, CopyButton) and barrel export
 
@@ -90,7 +90,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/4 | In progress | - |
+| 1. Foundation | 2/4 | In progress | - |
 | 2. Crosshair Feature | 0/? | Not started | - |
 | 3. Config Builder | 0/? | Not started | - |
 | 4. App Shell and Deployment | 0/? | Not started | - |
