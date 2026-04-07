@@ -47,13 +47,7 @@ Plans:
   2. User can change crosshair style (classic static, classic dynamic, classic, tee) and see the preview update immediately
   3. User can adjust size, thickness, gap, color (RGB + alpha), center dot, T-style, and outline — all reflected in the preview
   4. User can click a copy button and paste the resulting `CSGO-XXXXX-...` import code directly into CS2 and get a matching crosshair
-**Plans**: 4 plans
-
-Plans:
-- [ ] 02-01-PLAN.md — Wave 0 foundation: test stubs, per-style defaults, CSS classes, primitive className upgrades
-- [ ] 02-02-PLAN.md — CrosshairPreview SVG renderer, SectionCard wrapper, SegmentedButtonGroup style picker
-- [ ] 02-03-PLAN.md — SliderRow, ToggleSwitch, ColorSwatch, ColorSection, ImportCodeBar controls
-- [ ] 02-04-PLAN.md — CrosshairDesigner page composition, App.tsx wiring, visual verification
+**Plans**: TBD
 
 ### Phase 3: Config Builder
 **Goal**: A user can configure their game settings and download a ready-to-use autoexec.cfg file that contains only valid CS2 commands
@@ -97,7 +91,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 4/4 | Complete | 2026-04-02 |
-| 2. Crosshair Feature | 0/4 | Not started | - |
+| 2. Crosshair Feature | 0/? | Not started | - |
 | 3. Config Builder | 0/? | Not started | - |
 | 4. App Shell and Deployment | 0/? | Not started | - |
 | 5. Monetization and Content | 0/? | Not started | - |
