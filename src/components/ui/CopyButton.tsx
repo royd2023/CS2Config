@@ -6,9 +6,10 @@ import { useState } from 'react';
 interface CopyButtonProps {
   value: string;
   label?: string;
+  className?: string;
 }
 
-export function CopyButton({ value, label = 'Copy' }: CopyButtonProps) {
+export function CopyButton({ value, label = 'Copy', className }: CopyButtonProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -23,7 +24,7 @@ export function CopyButton({ value, label = 'Copy' }: CopyButtonProps) {
   };
 
   return (
-    <button onClick={handleCopy} type="button">
+    <button onClick={handleCopy} type="button" className={className}>
       {copied ? 'Copied!' : label}
     </button>
   );

@@ -1,1 +1,52 @@
 @import "tailwindcss";
+
+@layer components {
+  .slider-range {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    border-radius: 2px;
+    background: #3a3a3a;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .slider-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    cursor: pointer;
+  }
+  .slider-range::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    border: none;
+    cursor: pointer;
+  }
+  .slider-range:focus-visible::-webkit-slider-thumb {
+    outline: 2px solid #f97316;
+    outline-offset: 2px;
+  }
+  .slider-range:focus-visible::-moz-range-thumb {
+    outline: 2px solid #f97316;
+    outline-offset: 2px;
+  }
+  .number-input {
+    width: 56px;
+    text-align: right;
+    font-size: 14px;
+    background: #1a1a1a;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    color: #e5e5e5;
+    padding: 4px 6px;
+  }
+  .number-input:focus {
+    outline: 2px solid #f97316;
+    outline-offset: 0;
+  }
+}

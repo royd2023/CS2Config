@@ -1,5 +1,4 @@
 // src/components/ui/Slider.tsx
-// Functional only — no custom styling per CONTEXT.md (deferred to Phase 4)
 interface SliderProps {
   label: string;
   min: number;
@@ -7,9 +6,10 @@ interface SliderProps {
   step?: number;
   value: number;
   onChange: (value: number) => void;
+  className?: string;
 }
 
-export function Slider({ label, min, max, step = 1, value, onChange }: SliderProps) {
+export function Slider({ label, min, max, step = 1, value, onChange, className }: SliderProps) {
   return (
     <div>
       <label>
@@ -21,6 +21,7 @@ export function Slider({ label, min, max, step = 1, value, onChange }: SliderPro
           step={step}
           value={value}
           onChange={(e) => onChange(Number(e.target.value))}
+          className={className}
         />
       </label>
     </div>
