@@ -1,9 +1,6 @@
-import { useCrosshairStore } from '@/stores/crosshairStore';
-import { useConfigStore } from '@/stores/configStore';
+import { CrosshairDesigner } from '@/features/crosshair';
 
 function App() {
-  useCrosshairStore();
-  useConfigStore();
-  return <div className="p-4 text-white bg-gray-900 min-h-screen">CS2 Setup Builder</div>
+  return <CrosshairDesigner />;
 }
 export default App;
